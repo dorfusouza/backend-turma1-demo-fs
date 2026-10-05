@@ -7,7 +7,7 @@ const path = require('path');
 
 const ARQUIVO = path.join(__dirname, 'anotacao.txt');
 
-// 1) Escrever: cria o arquivo (ou SOBRESCREVE se já existir).con
+// 1) Escrever: cria o arquivo (ou SOBRESCREVE se já existir).
 fs.writeFileSync(ARQUIVO, 'Olá, arquivo!\nSegunda linha.\n');
 console.log('Escrevi o arquivo em:', ARQUIVO);
 
